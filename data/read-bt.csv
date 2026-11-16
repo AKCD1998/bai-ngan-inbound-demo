@@ -1,0 +1,53 @@
+﻿"sequence","page","printed_row","product_code","description","quantity","unit","unit_price","line_total","customer_part","ics_code","delivery_date","document_number","document_date","currency","buyer","supplier","payment_terms","shipping_terms","remarks","printed_text","all_page_text"
+"1","1","1","MOCK-PART-001","Fictional Component 1","121","DEMO PCS","10.001000","1210.121000","MOCK-CUSTOMER-001","MOCK-ICS-001","2032-02-01","MOCK-PO-003","2032-01-03","THB","Fictional Buyer 3","Fictional Supplier 3","MOCK net 21 days","MOCK delivery arrangement","All identities, goods, dates and amounts are fictional. Not an OCR result.","MOCK-PART-001
+Fictional Component 1","PAGE 1
+MOCK / FICTIONAL - NOT AN OCR RESULT
+MOCK-PO-003 | Page 1/2
+Buyer: Fictional Buyer 3 | Supplier: Fictional Supplier 3
+Address: 3 Imaginary Avenue, Sample City
+Contact: demo3@example.invalid
+Date: 2032-01-03 | THB | MOCK net 21 days
+Row | Product | Qty | Unit price | Total | Delivery
+1 | MOCK-PART-001 | 121 | 10.001000 | 1210.121000 | 2032-02-01
+MOCK-PART-001 · Fictional Component 1 | MOCK-CUSTOMER-001 | MOCK-ICS-001
+2 | MOCK-PART-002 | 128 | 10.002000 | 1280.256000 | 2032-02-02
+MOCK-PART-002 · Fictional Component 2 | MOCK-CUSTOMER-002 | MOCK-ICS-002
+All goods, prices, parties and references are fictional.
+PAGE 2
+MOCK / FICTIONAL - NOT AN OCR RESULT
+MOCK-PO-003 | Page 2/2
+Buyer: Fictional Buyer 3 | Supplier: Fictional Supplier 3
+Address: 3 Imaginary Avenue, Sample City
+Contact: demo3@example.invalid
+Date: 2032-01-03 | THB | MOCK net 21 days
+Row | Product | Qty | Unit price | Total | Delivery
+MOCK TERMS PAGE
+Sample clause A: This is fictional text for layout testing.
+Sample clause B: No purchase or payment commitment exists.
+All goods, prices, parties and references are fictional."
+"2","1","2","MOCK-PART-002","Fictional Component 2","128","DEMO PCS","10.002000","1280.256000","MOCK-CUSTOMER-002","MOCK-ICS-002","2032-02-02","MOCK-PO-003","2032-01-03","THB","Fictional Buyer 3","Fictional Supplier 3","MOCK net 21 days","MOCK delivery arrangement","All identities, goods, dates and amounts are fictional. Not an OCR result.","MOCK-PART-002
+Fictional Component 2","PAGE 1
+MOCK / FICTIONAL - NOT AN OCR RESULT
+MOCK-PO-003 | Page 1/2
+Buyer: Fictional Buyer 3 | Supplier: Fictional Supplier 3
+Address: 3 Imaginary Avenue, Sample City
+Contact: demo3@example.invalid
+Date: 2032-01-03 | THB | MOCK net 21 days
+Row | Product | Qty | Unit price | Total | Delivery
+1 | MOCK-PART-001 | 121 | 10.001000 | 1210.121000 | 2032-02-01
+MOCK-PART-001 · Fictional Component 1 | MOCK-CUSTOMER-001 | MOCK-ICS-001
+2 | MOCK-PART-002 | 128 | 10.002000 | 1280.256000 | 2032-02-02
+MOCK-PART-002 · Fictional Component 2 | MOCK-CUSTOMER-002 | MOCK-ICS-002
+All goods, prices, parties and references are fictional.
+PAGE 2
+MOCK / FICTIONAL - NOT AN OCR RESULT
+MOCK-PO-003 | Page 2/2
+Buyer: Fictional Buyer 3 | Supplier: Fictional Supplier 3
+Address: 3 Imaginary Avenue, Sample City
+Contact: demo3@example.invalid
+Date: 2032-01-03 | THB | MOCK net 21 days
+Row | Product | Qty | Unit price | Total | Delivery
+MOCK TERMS PAGE
+Sample clause A: This is fictional text for layout testing.
+Sample clause B: No purchase or payment commitment exists.
+All goods, prices, parties and references are fictional."

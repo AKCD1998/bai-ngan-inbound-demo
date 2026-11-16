@@ -1,0 +1,66 @@
+{
+  "schema": "bai-ngan.document.v1",
+  "exported_at": "2026-11-16T00:00:00.000Z",
+  "document": {
+    "id": "read-po",
+    "display_name": "MOCK-PO-002",
+    "document_number": "MOCK-PO-002",
+    "date": "2032-01-02",
+    "supplier": "Fictional Supplier 2",
+    "currency": "THB",
+    "data_class": "MOCK_FICTIONAL"
+  },
+  "data_class": "MOCK_FICTIONAL",
+  "not_ocr": true,
+  "status": "fictional_demo",
+  "order": "source_page_then_printed_position",
+  "field_availability": {
+    "product_text": "available",
+    "quantity": "available",
+    "unit": "available",
+    "unit_price": "available",
+    "line_total": "available"
+  },
+  "null_policy": "not supplied; not zero and not a verified blank",
+  "document_fields": {
+    "number": "MOCK-PO-002",
+    "date_printed": "2032-01-02",
+    "currency": "THB",
+    "buyer": "Fictional Buyer 2",
+    "supplier": "Fictional Supplier 2",
+    "buyer_address": "2 Imaginary Avenue, Sample City",
+    "supplier_address": "2 Example Road, Demo Town",
+    "contact": "demo2@example.invalid",
+    "payment_terms": "MOCK net 21 days",
+    "shipping_terms": "MOCK delivery arrangement",
+    "remarks": "All identities, goods, dates and amounts are fictional. Not an OCR result."
+  },
+  "content_pages": [
+    {
+      "page": 1,
+      "text": "MOCK / FICTIONAL - NOT AN OCR RESULT\nMOCK-PO-002 | Page 1/1\nBuyer: Fictional Buyer 2 | Supplier: Fictional Supplier 2\nAddress: 2 Imaginary Avenue, Sample City\nContact: demo2@example.invalid\nDate: 2032-01-02 | THB | MOCK net 21 days\nRow | Product | Qty | Unit price | Total | Delivery\n1 | MOCK-PART-001 | 120 | 9.001000 | 1080.120000 | 2032-02-01\nMOCK-PART-001 · Fictional Component 1 | MOCK-CUSTOMER-001 | MOCK-ICS-001\nAll goods, prices, parties and references are fictional.",
+      "engine": "synthetic fixture",
+      "human_verified": false
+    }
+  ],
+  "items": [
+    {
+      "sequence": 1,
+      "page": 1,
+      "printed_row": "1",
+      "product_code": "MOCK-PART-001",
+      "description": "Fictional Component 1",
+      "text_lines": [
+        "MOCK-PART-001",
+        "Fictional Component 1"
+      ],
+      "quantity": "120",
+      "unit": "DEMO PCS",
+      "unit_price": "9.001000",
+      "line_total": "1080.120000",
+      "customer_part": "MOCK-CUSTOMER-001",
+      "ics_code": "MOCK-ICS-001",
+      "delivery_date": "2032-02-01"
+    }
+  ]
+}

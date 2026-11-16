@@ -1,0 +1,90 @@
+{
+  "schema": "bai-ngan.document.v1",
+  "exported_at": "2026-11-16T00:00:00.000Z",
+  "document": {
+    "id": "read-bt",
+    "display_name": "MOCK-PO-003",
+    "document_number": "MOCK-PO-003",
+    "date": "2032-01-03",
+    "supplier": "Fictional Supplier 3",
+    "currency": "THB",
+    "data_class": "MOCK_FICTIONAL"
+  },
+  "data_class": "MOCK_FICTIONAL",
+  "not_ocr": true,
+  "status": "fictional_demo",
+  "order": "source_page_then_printed_position",
+  "field_availability": {
+    "product_text": "available",
+    "quantity": "available",
+    "unit": "available",
+    "unit_price": "available",
+    "line_total": "available"
+  },
+  "null_policy": "not supplied; not zero and not a verified blank",
+  "document_fields": {
+    "number": "MOCK-PO-003",
+    "date_printed": "2032-01-03",
+    "currency": "THB",
+    "buyer": "Fictional Buyer 3",
+    "supplier": "Fictional Supplier 3",
+    "buyer_address": "3 Imaginary Avenue, Sample City",
+    "supplier_address": "3 Example Road, Demo Town",
+    "contact": "demo3@example.invalid",
+    "payment_terms": "MOCK net 21 days",
+    "shipping_terms": "MOCK delivery arrangement",
+    "remarks": "All identities, goods, dates and amounts are fictional. Not an OCR result."
+  },
+  "content_pages": [
+    {
+      "page": 1,
+      "text": "MOCK / FICTIONAL - NOT AN OCR RESULT\nMOCK-PO-003 | Page 1/2\nBuyer: Fictional Buyer 3 | Supplier: Fictional Supplier 3\nAddress: 3 Imaginary Avenue, Sample City\nContact: demo3@example.invalid\nDate: 2032-01-03 | THB | MOCK net 21 days\nRow | Product | Qty | Unit price | Total | Delivery\n1 | MOCK-PART-001 | 121 | 10.001000 | 1210.121000 | 2032-02-01\nMOCK-PART-001 · Fictional Component 1 | MOCK-CUSTOMER-001 | MOCK-ICS-001\n2 | MOCK-PART-002 | 128 | 10.002000 | 1280.256000 | 2032-02-02\nMOCK-PART-002 · Fictional Component 2 | MOCK-CUSTOMER-002 | MOCK-ICS-002\nAll goods, prices, parties and references are fictional.",
+      "engine": "synthetic fixture",
+      "human_verified": false
+    },
+    {
+      "page": 2,
+      "text": "MOCK / FICTIONAL - NOT AN OCR RESULT\nMOCK-PO-003 | Page 2/2\nBuyer: Fictional Buyer 3 | Supplier: Fictional Supplier 3\nAddress: 3 Imaginary Avenue, Sample City\nContact: demo3@example.invalid\nDate: 2032-01-03 | THB | MOCK net 21 days\nRow | Product | Qty | Unit price | Total | Delivery\nMOCK TERMS PAGE\nSample clause A: This is fictional text for layout testing.\nSample clause B: No purchase or payment commitment exists.\nAll goods, prices, parties and references are fictional.",
+      "engine": "synthetic fixture",
+      "human_verified": false
+    }
+  ],
+  "items": [
+    {
+      "sequence": 1,
+      "page": 1,
+      "printed_row": "1",
+      "product_code": "MOCK-PART-001",
+      "description": "Fictional Component 1",
+      "text_lines": [
+        "MOCK-PART-001",
+        "Fictional Component 1"
+      ],
+      "quantity": "121",
+      "unit": "DEMO PCS",
+      "unit_price": "10.001000",
+      "line_total": "1210.121000",
+      "customer_part": "MOCK-CUSTOMER-001",
+      "ics_code": "MOCK-ICS-001",
+      "delivery_date": "2032-02-01"
+    },
+    {
+      "sequence": 2,
+      "page": 1,
+      "printed_row": "2",
+      "product_code": "MOCK-PART-002",
+      "description": "Fictional Component 2",
+      "text_lines": [
+        "MOCK-PART-002",
+        "Fictional Component 2"
+      ],
+      "quantity": "128",
+      "unit": "DEMO PCS",
+      "unit_price": "10.002000",
+      "line_total": "1280.256000",
+      "customer_part": "MOCK-CUSTOMER-002",
+      "ics_code": "MOCK-ICS-002",
+      "delivery_date": "2032-02-02"
+    }
+  ]
+}

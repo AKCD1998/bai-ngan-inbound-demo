@@ -1,0 +1,1386 @@
+{
+  "schema": "bai-ngan.document.v1",
+  "exported_at": "2026-11-16T00:00:00.000Z",
+  "document": {
+    "id": "read-po8",
+    "display_name": "MOCK-PO-001",
+    "document_number": "MOCK-PO-001",
+    "date": "2032-01-01",
+    "supplier": "Fictional Supplier 1",
+    "currency": "THB",
+    "data_class": "MOCK_FICTIONAL"
+  },
+  "data_class": "MOCK_FICTIONAL",
+  "not_ocr": true,
+  "status": "fictional_demo",
+  "order": "source_page_then_printed_position",
+  "field_availability": {
+    "product_text": "available",
+    "quantity": "available",
+    "unit": "available",
+    "unit_price": "available",
+    "line_total": "available"
+  },
+  "null_policy": "not supplied; not zero and not a verified blank",
+  "document_fields": {
+    "number": "MOCK-PO-001",
+    "date_printed": "2032-01-01",
+    "currency": "THB",
+    "buyer": "Fictional Buyer 1",
+    "supplier": "Fictional Supplier 1",
+    "buyer_address": "1 Imaginary Avenue, Sample City",
+    "supplier_address": "1 Example Road, Demo Town",
+    "contact": "demo1@example.invalid",
+    "payment_terms": "MOCK net 21 days",
+    "shipping_terms": "MOCK delivery arrangement",
+    "remarks": "All identities, goods, dates and amounts are fictional. Not an OCR result."
+  },
+  "content_pages": [
+    {
+      "page": 1,
+      "text": "MOCK / FICTIONAL - NOT AN OCR RESULT\nMOCK-PO-001 | Page 1/8\nBuyer: Fictional Buyer 1 | Supplier: Fictional Supplier 1\nAddress: 1 Imaginary Avenue, Sample City\nContact: demo1@example.invalid\nDate: 2032-01-01 | THB | MOCK net 21 days\nRow | Product | Qty | Unit price | Total | Delivery\n1 | MOCK-PART-001 | 119 | 8.001000 | 952.119000 | 2032-02-01\nMOCK-PART-001 · Fictional Component 1 | MOCK-CUSTOMER-001 | MOCK-ICS-001\n2 | MOCK-PART-002 | 126 | 8.002000 | 1008.252000 | 2032-02-02\nMOCK-PART-002 · Fictional Component 2 | MOCK-CUSTOMER-002 | MOCK-ICS-002\n3 | MOCK-PART-003 | 133 | 8.003000 | 1064.399000 | 2032-02-03\nMOCK-PART-003 · Fictional Component 3 | MOCK-CUSTOMER-003 | MOCK-ICS-003\n4 | MOCK-PART-004 | 140 | 8.004000 | 1120.560000 | 2032-02-04\nMOCK-PART-004 · Fictional Component 4 | MOCK-CUSTOMER-004 | MOCK-ICS-004\n5 | MOCK-PART-005 | 147 | 8.005000 | 1176.735000 | 2032-02-05\nMOCK-PART-005 · Fictional Component 5 | MOCK-CUSTOMER-005 | MOCK-ICS-005\n6 | MOCK-PART-006 | 154 | 8.006000 | 1232.924000 | 2032-02-06\nMOCK-PART-006 · Fictional Component 6 | MOCK-CUSTOMER-006 | MOCK-ICS-006\n7 | MOCK-PART-007 | 161 | 8.007000 | 1289.127000 | 2032-02-07\nMOCK-PART-007 · Fictional Component 7 | MOCK-CUSTOMER-007 | MOCK-ICS-007\n8 | MOCK-PART-008 | 168 | 8.008000 | 1345.344000 | 2032-02-08\nMOCK-PART-008 · Fictional Component 8 | MOCK-CUSTOMER-008 | MOCK-ICS-008\n9 | MOCK-PART-001 | 175 | 8.009000 | 1401.575000 | 2032-02-09\nMOCK-PART-001 · Fictional Component 1 | MOCK-CUSTOMER-009 | MOCK-ICS-009\nAll goods, prices, parties and references are fictional.",
+      "engine": "synthetic fixture",
+      "human_verified": false
+    },
+    {
+      "page": 2,
+      "text": "MOCK / FICTIONAL - NOT AN OCR RESULT\nMOCK-PO-001 | Page 2/8\nBuyer: Fictional Buyer 1 | Supplier: Fictional Supplier 1\nAddress: 1 Imaginary Avenue, Sample City\nContact: demo1@example.invalid\nDate: 2032-01-01 | THB | MOCK net 21 days\nRow | Product | Qty | Unit price | Total | Delivery\n10 | MOCK-PART-002 | 182 | 8.010000 | 1457.820000 | 2032-02-10\nMOCK-PART-002 · Fictional Component 2 | MOCK-CUSTOMER-010 | MOCK-ICS-010\n11 | MOCK-PART-003 | 189 | 8.011000 | 1514.079000 | 2032-02-11\nMOCK-PART-003 · Fictional Component 3 | MOCK-CUSTOMER-011 | MOCK-ICS-011\n12 | MOCK-PART-004 | 196 | 8.012000 | 1570.352000 | 2032-02-12\nMOCK-PART-004 · Fictional Component 4 | MOCK-CUSTOMER-012 | MOCK-ICS-012\n13 | MOCK-PART-005 | 203 | 8.013000 | 1626.639000 | 2032-02-13\nMOCK-PART-005 · Fictional Component 5 | MOCK-CUSTOMER-013 | MOCK-ICS-013\n14 | MOCK-PART-006 | 210 | 8.014000 | 1682.940000 | 2032-02-14\nMOCK-PART-006 · Fictional Component 6 | MOCK-CUSTOMER-014 | MOCK-ICS-014\n15 | MOCK-PART-007 | 217 | 8.015000 | 1739.255000 | 2032-02-15\nMOCK-PART-007 · Fictional Component 7 | MOCK-CUSTOMER-015 | MOCK-ICS-015\n16 | MOCK-PART-008 | 224 | 8.016000 | 1795.584000 | 2032-02-16\nMOCK-PART-008 · Fictional Component 8 | MOCK-CUSTOMER-016 | MOCK-ICS-016\n17 | MOCK-PART-001 | 231 | 8.017000 | 1851.927000 | 2032-02-17\nMOCK-PART-001 · Fictional Component 1 | MOCK-CUSTOMER-017 | MOCK-ICS-017\n18 | MOCK-PART-002 | 238 | 8.018000 | 1908.284000 | 2032-02-18\nMOCK-PART-002 · Fictional Component 2 | MOCK-CUSTOMER-018 | MOCK-ICS-018\nAll goods, prices, parties and references are fictional.",
+      "engine": "synthetic fixture",
+      "human_verified": false
+    },
+    {
+      "page": 3,
+      "text": "MOCK / FICTIONAL - NOT AN OCR RESULT\nMOCK-PO-001 | Page 3/8\nBuyer: Fictional Buyer 1 | Supplier: Fictional Supplier 1\nAddress: 1 Imaginary Avenue, Sample City\nContact: demo1@example.invalid\nDate: 2032-01-01 | THB | MOCK net 21 days\nRow | Product | Qty | Unit price | Total | Delivery\n19 | MOCK-PART-003 | 245 | 8.019000 | 1964.655000 | 2032-02-19\nMOCK-PART-003 · Fictional Component 3 | MOCK-CUSTOMER-019 | MOCK-ICS-019\n20 | MOCK-PART-004 | 252 | 8.020000 | 2021.040000 | 2032-02-20\nMOCK-PART-004 · Fictional Component 4 | MOCK-CUSTOMER-020 | MOCK-ICS-020\n21 | MOCK-PART-005 | 259 | 8.021000 | 2077.439000 | 2032-02-21\nMOCK-PART-005 · Fictional Component 5 | MOCK-CUSTOMER-021 | MOCK-ICS-021\n22 | MOCK-PART-006 | 266 | 8.022000 | 2133.852000 | 2032-02-22\nMOCK-PART-006 · Fictional Component 6 | MOCK-CUSTOMER-022 | MOCK-ICS-022\n23 | MOCK-PART-007 | 273 | 8.023000 | 2190.279000 | 2032-02-23\nMOCK-PART-007 · Fictional Component 7 | MOCK-CUSTOMER-023 | MOCK-ICS-023\n24 | MOCK-PART-008 | 280 | 8.024000 | 2246.720000 | 2032-02-24\nMOCK-PART-008 · Fictional Component 8 | MOCK-CUSTOMER-024 | MOCK-ICS-024\n25 | MOCK-PART-001 | 287 | 8.025000 | 2303.175000 | 2032-02-25\nMOCK-PART-001 · Fictional Component 1 | MOCK-CUSTOMER-025 | MOCK-ICS-025\n26 | MOCK-PART-002 | 294 | 8.026000 | 2359.644000 | 2032-02-26\nMOCK-PART-002 · Fictional Component 2 | MOCK-CUSTOMER-026 | MOCK-ICS-026\n27 | MOCK-PART-003 | 301 | 8.027000 | 2416.127000 | 2032-02-27\nMOCK-PART-003 · Fictional Component 3 | MOCK-CUSTOMER-027 | MOCK-ICS-027\nAll goods, prices, parties and references are fictional.",
+      "engine": "synthetic fixture",
+      "human_verified": false
+    },
+    {
+      "page": 4,
+      "text": "MOCK / FICTIONAL - NOT AN OCR RESULT\nMOCK-PO-001 | Page 4/8\nBuyer: Fictional Buyer 1 | Supplier: Fictional Supplier 1\nAddress: 1 Imaginary Avenue, Sample City\nContact: demo1@example.invalid\nDate: 2032-01-01 | THB | MOCK net 21 days\nRow | Product | Qty | Unit price | Total | Delivery\n28 | MOCK-PART-004 | 308 | 8.028000 | 2472.624000 | 2032-02-28\nMOCK-PART-004 · Fictional Component 4 | MOCK-CUSTOMER-028 | MOCK-ICS-028\n29 | MOCK-PART-005 | 315 | 8.029000 | 2529.135000 | 2032-02-01\nMOCK-PART-005 · Fictional Component 5 | MOCK-CUSTOMER-029 | MOCK-ICS-029\n30 | MOCK-PART-006 | 322 | 8.030000 | 2585.660000 | 2032-02-02\nMOCK-PART-006 · Fictional Component 6 | MOCK-CUSTOMER-030 | MOCK-ICS-030\n31 | MOCK-PART-007 | 329 | 8.031000 | 2642.199000 | 2032-02-03\nMOCK-PART-007 · Fictional Component 7 | MOCK-CUSTOMER-031 | MOCK-ICS-031\n32 | MOCK-PART-008 | 336 | 8.032000 | 2698.752000 | 2032-02-04\nMOCK-PART-008 · Fictional Component 8 | MOCK-CUSTOMER-032 | MOCK-ICS-032\n33 | MOCK-PART-001 | 343 | 8.033000 | 2755.319000 | 2032-02-05\nMOCK-PART-001 · Fictional Component 1 | MOCK-CUSTOMER-033 | MOCK-ICS-033\n34 | MOCK-PART-002 | 350 | 8.034000 | 2811.900000 | 2032-02-06\nMOCK-PART-002 · Fictional Component 2 | MOCK-CUSTOMER-034 | MOCK-ICS-034\n35 | MOCK-PART-003 | 357 | 8.035000 | 2868.495000 | 2032-02-07\nMOCK-PART-003 · Fictional Component 3 | MOCK-CUSTOMER-035 | MOCK-ICS-035\n36 | MOCK-PART-004 | 364 | 8.036000 | 2925.104000 | 2032-02-08\nMOCK-PART-004 · Fictional Component 4 | MOCK-CUSTOMER-036 | MOCK-ICS-036\nAll goods, prices, parties and references are fictional.",
+      "engine": "synthetic fixture",
+      "human_verified": false
+    },
+    {
+      "page": 5,
+      "text": "MOCK / FICTIONAL - NOT AN OCR RESULT\nMOCK-PO-001 | Page 5/8\nBuyer: Fictional Buyer 1 | Supplier: Fictional Supplier 1\nAddress: 1 Imaginary Avenue, Sample City\nContact: demo1@example.invalid\nDate: 2032-01-01 | THB | MOCK net 21 days\nRow | Product | Qty | Unit price | Total | Delivery\n37 | MOCK-PART-005 | 371 | 8.037000 | 2981.727000 | 2032-02-09\nMOCK-PART-005 · Fictional Component 5 | MOCK-CUSTOMER-037 | MOCK-ICS-037\n38 | MOCK-PART-006 | 378 | 8.038000 | 3038.364000 | 2032-02-10\nMOCK-PART-006 · Fictional Component 6 | MOCK-CUSTOMER-038 | MOCK-ICS-038\n39 | MOCK-PART-007 | 385 | 8.039000 | 3095.015000 | 2032-02-11\nMOCK-PART-007 · Fictional Component 7 | MOCK-CUSTOMER-039 | MOCK-ICS-039\n40 | MOCK-PART-008 | 392 | 8.040000 | 3151.680000 | 2032-02-12\nMOCK-PART-008 · Fictional Component 8 | MOCK-CUSTOMER-040 | MOCK-ICS-040\n41 | MOCK-PART-001 | 399 | 8.041000 | 3208.359000 | 2032-02-13\nMOCK-PART-001 · Fictional Component 1 | MOCK-CUSTOMER-041 | MOCK-ICS-041\n42 | MOCK-PART-002 | 406 | 8.042000 | 3265.052000 | 2032-02-14\nMOCK-PART-002 · Fictional Component 2 | MOCK-CUSTOMER-042 | MOCK-ICS-042\n43 | MOCK-PART-003 | 413 | 8.043000 | 3321.759000 | 2032-02-15\nMOCK-PART-003 · Fictional Component 3 | MOCK-CUSTOMER-043 | MOCK-ICS-043\n44 | MOCK-PART-004 | 420 | 8.044000 | 3378.480000 | 2032-02-16\nMOCK-PART-004 · Fictional Component 4 | MOCK-CUSTOMER-044 | MOCK-ICS-044\n45 | MOCK-PART-005 | 427 | 8.045000 | 3435.215000 | 2032-02-17\nMOCK-PART-005 · Fictional Component 5 | MOCK-CUSTOMER-045 | MOCK-ICS-045\nAll goods, prices, parties and references are fictional.",
+      "engine": "synthetic fixture",
+      "human_verified": false
+    },
+    {
+      "page": 6,
+      "text": "MOCK / FICTIONAL - NOT AN OCR RESULT\nMOCK-PO-001 | Page 6/8\nBuyer: Fictional Buyer 1 | Supplier: Fictional Supplier 1\nAddress: 1 Imaginary Avenue, Sample City\nContact: demo1@example.invalid\nDate: 2032-01-01 | THB | MOCK net 21 days\nRow | Product | Qty | Unit price | Total | Delivery\n46 | MOCK-PART-006 | 434 | 8.046000 | 3491.964000 | 2032-02-18\nMOCK-PART-006 · Fictional Component 6 | MOCK-CUSTOMER-046 | MOCK-ICS-046\n47 | MOCK-PART-007 | 441 | 8.047000 | 3548.727000 | 2032-02-19\nMOCK-PART-007 · Fictional Component 7 | MOCK-CUSTOMER-047 | MOCK-ICS-047\n48 | MOCK-PART-008 | 448 | 8.048000 | 3605.504000 | 2032-02-20\nMOCK-PART-008 · Fictional Component 8 | MOCK-CUSTOMER-048 | MOCK-ICS-048\n49 | MOCK-PART-001 | 455 | 8.049000 | 3662.295000 | 2032-02-21\nMOCK-PART-001 · Fictional Component 1 | MOCK-CUSTOMER-049 | MOCK-ICS-049\n50 | MOCK-PART-002 | 462 | 8.050000 | 3719.100000 | 2032-02-22\nMOCK-PART-002 · Fictional Component 2 | MOCK-CUSTOMER-050 | MOCK-ICS-050\n51 | MOCK-PART-003 | 469 | 8.051000 | 3775.919000 | 2032-02-23\nMOCK-PART-003 · Fictional Component 3 | MOCK-CUSTOMER-051 | MOCK-ICS-051\n52 | MOCK-PART-004 | 476 | 8.052000 | 3832.752000 | 2032-02-24\nMOCK-PART-004 · Fictional Component 4 | MOCK-CUSTOMER-052 | MOCK-ICS-052\n53 | MOCK-PART-005 | 483 | 8.053000 | 3889.599000 | 2032-02-25\nMOCK-PART-005 · Fictional Component 5 | MOCK-CUSTOMER-053 | MOCK-ICS-053\n54 | MOCK-PART-006 | 490 | 8.054000 | 3946.460000 | 2032-02-26\nMOCK-PART-006 · Fictional Component 6 | MOCK-CUSTOMER-054 | MOCK-ICS-054\nAll goods, prices, parties and references are fictional.",
+      "engine": "synthetic fixture",
+      "human_verified": false
+    },
+    {
+      "page": 7,
+      "text": "MOCK / FICTIONAL - NOT AN OCR RESULT\nMOCK-PO-001 | Page 7/8\nBuyer: Fictional Buyer 1 | Supplier: Fictional Supplier 1\nAddress: 1 Imaginary Avenue, Sample City\nContact: demo1@example.invalid\nDate: 2032-01-01 | THB | MOCK net 21 days\nRow | Product | Qty | Unit price | Total | Delivery\n55 | MOCK-PART-007 | 497 | 8.055000 | 4003.335000 | 2032-02-27\nMOCK-PART-007 · Fictional Component 7 | MOCK-CUSTOMER-055 | MOCK-ICS-055\n56 | MOCK-PART-008 | 504 | 8.056000 | 4060.224000 | 2032-02-28\nMOCK-PART-008 · Fictional Component 8 | MOCK-CUSTOMER-056 | MOCK-ICS-056\n57 | MOCK-PART-001 | 511 | 8.057000 | 4117.127000 | 2032-02-01\nMOCK-PART-001 · Fictional Component 1 | MOCK-CUSTOMER-057 | MOCK-ICS-057\n58 | MOCK-PART-002 | 518 | 8.058000 | 4174.044000 | 2032-02-02\nMOCK-PART-002 · Fictional Component 2 | MOCK-CUSTOMER-058 | MOCK-ICS-058\n59 | MOCK-PART-003 | 525 | 8.059000 | 4230.975000 | 2032-02-03\nMOCK-PART-003 · Fictional Component 3 | MOCK-CUSTOMER-059 | MOCK-ICS-059\n60 | MOCK-PART-004 | 532 | 8.060000 | 4287.920000 | 2032-02-04\nMOCK-PART-004 · Fictional Component 4 | MOCK-CUSTOMER-060 | MOCK-ICS-060\n61 | MOCK-PART-005 | 539 | 8.061000 | 4344.879000 | 2032-02-05\nMOCK-PART-005 · Fictional Component 5 | MOCK-CUSTOMER-061 | MOCK-ICS-061\n62 | MOCK-PART-006 | 546 | 8.062000 | 4401.852000 | 2032-02-06\nMOCK-PART-006 · Fictional Component 6 | MOCK-CUSTOMER-062 | MOCK-ICS-062\n63 | MOCK-PART-007 | 553 | 8.063000 | 4458.839000 | 2032-02-07\nMOCK-PART-007 · Fictional Component 7 | MOCK-CUSTOMER-063 | MOCK-ICS-063\nAll goods, prices, parties and references are fictional.",
+      "engine": "synthetic fixture",
+      "human_verified": false
+    },
+    {
+      "page": 8,
+      "text": "MOCK / FICTIONAL - NOT AN OCR RESULT\nMOCK-PO-001 | Page 8/8\nBuyer: Fictional Buyer 1 | Supplier: Fictional Supplier 1\nAddress: 1 Imaginary Avenue, Sample City\nContact: demo1@example.invalid\nDate: 2032-01-01 | THB | MOCK net 21 days\nRow | Product | Qty | Unit price | Total | Delivery\n64 | MOCK-PART-008 | 560 | 8.064000 | 4515.840000 | 2032-02-08\nMOCK-PART-008 · Fictional Component 8 | MOCK-CUSTOMER-064 | MOCK-ICS-064\n65 | MOCK-PART-001 | 567 | 8.065000 | 4572.855000 | 2032-02-09\nMOCK-PART-001 · Fictional Component 1 | MOCK-CUSTOMER-065 | MOCK-ICS-065\n66 | MOCK-PART-002 | 574 | 8.066000 | 4629.884000 | 2032-02-10\nMOCK-PART-002 · Fictional Component 2 | MOCK-CUSTOMER-066 | MOCK-ICS-066\n67 | MOCK-PART-003 | 581 | 8.067000 | 4686.927000 | 2032-02-11\nMOCK-PART-003 · Fictional Component 3 | MOCK-CUSTOMER-067 | MOCK-ICS-067\n68 | MOCK-PART-004 | 588 | 8.068000 | 4743.984000 | 2032-02-12\nMOCK-PART-004 · Fictional Component 4 | MOCK-CUSTOMER-068 | MOCK-ICS-068\n69 | MOCK-PART-005 | 595 | 8.069000 | 4801.055000 | 2032-02-13\nMOCK-PART-005 · Fictional Component 5 | MOCK-CUSTOMER-069 | MOCK-ICS-069\n70 | MOCK-PART-006 | 602 | 8.070000 | 4858.140000 | 2032-02-14\nMOCK-PART-006 · Fictional Component 6 | MOCK-CUSTOMER-070 | MOCK-ICS-070\n71 | MOCK-PART-007 | 609 | 8.071000 | 4915.239000 | 2032-02-15\nMOCK-PART-007 · Fictional Component 7 | MOCK-CUSTOMER-071 | MOCK-ICS-071\n72 | MOCK-PART-008 | 616 | 8.072000 | 4972.352000 | 2032-02-16\nMOCK-PART-008 · Fictional Component 8 | MOCK-CUSTOMER-072 | MOCK-ICS-072\nAll goods, prices, parties and references are fictional.",
+      "engine": "synthetic fixture",
+      "human_verified": false
+    }
+  ],
+  "items": [
+    {
+      "sequence": 1,
+      "page": 1,
+      "printed_row": "1",
+      "product_code": "MOCK-PART-001",
+      "description": "Fictional Component 1",
+      "text_lines": [
+        "MOCK-PART-001",
+        "Fictional Component 1"
+      ],
+      "quantity": "119",
+      "unit": "DEMO PCS",
+      "unit_price": "8.001000",
+      "line_total": "952.119000",
+      "customer_part": "MOCK-CUSTOMER-001",
+      "ics_code": "MOCK-ICS-001",
+      "delivery_date": "2032-02-01"
+    },
+    {
+      "sequence": 2,
+      "page": 1,
+      "printed_row": "2",
+      "product_code": "MOCK-PART-002",
+      "description": "Fictional Component 2",
+      "text_lines": [
+        "MOCK-PART-002",
+        "Fictional Component 2"
+      ],
+      "quantity": "126",
+      "unit": "DEMO PCS",
+      "unit_price": "8.002000",
+      "line_total": "1008.252000",
+      "customer_part": "MOCK-CUSTOMER-002",
+      "ics_code": "MOCK-ICS-002",
+      "delivery_date": "2032-02-02"
+    },
+    {
+      "sequence": 3,
+      "page": 1,
+      "printed_row": "3",
+      "product_code": "MOCK-PART-003",
+      "description": "Fictional Component 3",
+      "text_lines": [
+        "MOCK-PART-003",
+        "Fictional Component 3"
+      ],
+      "quantity": "133",
+      "unit": "DEMO PCS",
+      "unit_price": "8.003000",
+      "line_total": "1064.399000",
+      "customer_part": "MOCK-CUSTOMER-003",
+      "ics_code": "MOCK-ICS-003",
+      "delivery_date": "2032-02-03"
+    },
+    {
+      "sequence": 4,
+      "page": 1,
+      "printed_row": "4",
+      "product_code": "MOCK-PART-004",
+      "description": "Fictional Component 4",
+      "text_lines": [
+        "MOCK-PART-004",
+        "Fictional Component 4"
+      ],
+      "quantity": "140",
+      "unit": "DEMO PCS",
+      "unit_price": "8.004000",
+      "line_total": "1120.560000",
+      "customer_part": "MOCK-CUSTOMER-004",
+      "ics_code": "MOCK-ICS-004",
+      "delivery_date": "2032-02-04"
+    },
+    {
+      "sequence": 5,
+      "page": 1,
+      "printed_row": "5",
+      "product_code": "MOCK-PART-005",
+      "description": "Fictional Component 5",
+      "text_lines": [
+        "MOCK-PART-005",
+        "Fictional Component 5"
+      ],
+      "quantity": "147",
+      "unit": "DEMO PCS",
+      "unit_price": "8.005000",
+      "line_total": "1176.735000",
+      "customer_part": "MOCK-CUSTOMER-005",
+      "ics_code": "MOCK-ICS-005",
+      "delivery_date": "2032-02-05"
+    },
+    {
+      "sequence": 6,
+      "page": 1,
+      "printed_row": "6",
+      "product_code": "MOCK-PART-006",
+      "description": "Fictional Component 6",
+      "text_lines": [
+        "MOCK-PART-006",
+        "Fictional Component 6"
+      ],
+      "quantity": "154",
+      "unit": "DEMO PCS",
+      "unit_price": "8.006000",
+      "line_total": "1232.924000",
+      "customer_part": "MOCK-CUSTOMER-006",
+      "ics_code": "MOCK-ICS-006",
+      "delivery_date": "2032-02-06"
+    },
+    {
+      "sequence": 7,
+      "page": 1,
+      "printed_row": "7",
+      "product_code": "MOCK-PART-007",
+      "description": "Fictional Component 7",
+      "text_lines": [
+        "MOCK-PART-007",
+        "Fictional Component 7"
+      ],
+      "quantity": "161",
+      "unit": "DEMO PCS",
+      "unit_price": "8.007000",
+      "line_total": "1289.127000",
+      "customer_part": "MOCK-CUSTOMER-007",
+      "ics_code": "MOCK-ICS-007",
+      "delivery_date": "2032-02-07"
+    },
+    {
+      "sequence": 8,
+      "page": 1,
+      "printed_row": "8",
+      "product_code": "MOCK-PART-008",
+      "description": "Fictional Component 8",
+      "text_lines": [
+        "MOCK-PART-008",
+        "Fictional Component 8"
+      ],
+      "quantity": "168",
+      "unit": "DEMO PCS",
+      "unit_price": "8.008000",
+      "line_total": "1345.344000",
+      "customer_part": "MOCK-CUSTOMER-008",
+      "ics_code": "MOCK-ICS-008",
+      "delivery_date": "2032-02-08"
+    },
+    {
+      "sequence": 9,
+      "page": 1,
+      "printed_row": "9",
+      "product_code": "MOCK-PART-001",
+      "description": "Fictional Component 1",
+      "text_lines": [
+        "MOCK-PART-001",
+        "Fictional Component 1"
+      ],
+      "quantity": "175",
+      "unit": "DEMO PCS",
+      "unit_price": "8.009000",
+      "line_total": "1401.575000",
+      "customer_part": "MOCK-CUSTOMER-009",
+      "ics_code": "MOCK-ICS-009",
+      "delivery_date": "2032-02-09"
+    },
+    {
+      "sequence": 10,
+      "page": 2,
+      "printed_row": "10",
+      "product_code": "MOCK-PART-002",
+      "description": "Fictional Component 2",
+      "text_lines": [
+        "MOCK-PART-002",
+        "Fictional Component 2"
+      ],
+      "quantity": "182",
+      "unit": "DEMO PCS",
+      "unit_price": "8.010000",
+      "line_total": "1457.820000",
+      "customer_part": "MOCK-CUSTOMER-010",
+      "ics_code": "MOCK-ICS-010",
+      "delivery_date": "2032-02-10"
+    },
+    {
+      "sequence": 11,
+      "page": 2,
+      "printed_row": "11",
+      "product_code": "MOCK-PART-003",
+      "description": "Fictional Component 3",
+      "text_lines": [
+        "MOCK-PART-003",
+        "Fictional Component 3"
+      ],
+      "quantity": "189",
+      "unit": "DEMO PCS",
+      "unit_price": "8.011000",
+      "line_total": "1514.079000",
+      "customer_part": "MOCK-CUSTOMER-011",
+      "ics_code": "MOCK-ICS-011",
+      "delivery_date": "2032-02-11"
+    },
+    {
+      "sequence": 12,
+      "page": 2,
+      "printed_row": "12",
+      "product_code": "MOCK-PART-004",
+      "description": "Fictional Component 4",
+      "text_lines": [
+        "MOCK-PART-004",
+        "Fictional Component 4"
+      ],
+      "quantity": "196",
+      "unit": "DEMO PCS",
+      "unit_price": "8.012000",
+      "line_total": "1570.352000",
+      "customer_part": "MOCK-CUSTOMER-012",
+      "ics_code": "MOCK-ICS-012",
+      "delivery_date": "2032-02-12"
+    },
+    {
+      "sequence": 13,
+      "page": 2,
+      "printed_row": "13",
+      "product_code": "MOCK-PART-005",
+      "description": "Fictional Component 5",
+      "text_lines": [
+        "MOCK-PART-005",
+        "Fictional Component 5"
+      ],
+      "quantity": "203",
+      "unit": "DEMO PCS",
+      "unit_price": "8.013000",
+      "line_total": "1626.639000",
+      "customer_part": "MOCK-CUSTOMER-013",
+      "ics_code": "MOCK-ICS-013",
+      "delivery_date": "2032-02-13"
+    },
+    {
+      "sequence": 14,
+      "page": 2,
+      "printed_row": "14",
+      "product_code": "MOCK-PART-006",
+      "description": "Fictional Component 6",
+      "text_lines": [
+        "MOCK-PART-006",
+        "Fictional Component 6"
+      ],
+      "quantity": "210",
+      "unit": "DEMO PCS",
+      "unit_price": "8.014000",
+      "line_total": "1682.940000",
+      "customer_part": "MOCK-CUSTOMER-014",
+      "ics_code": "MOCK-ICS-014",
+      "delivery_date": "2032-02-14"
+    },
+    {
+      "sequence": 15,
+      "page": 2,
+      "printed_row": "15",
+      "product_code": "MOCK-PART-007",
+      "description": "Fictional Component 7",
+      "text_lines": [
+        "MOCK-PART-007",
+        "Fictional Component 7"
+      ],
+      "quantity": "217",
+      "unit": "DEMO PCS",
+      "unit_price": "8.015000",
+      "line_total": "1739.255000",
+      "customer_part": "MOCK-CUSTOMER-015",
+      "ics_code": "MOCK-ICS-015",
+      "delivery_date": "2032-02-15"
+    },
+    {
+      "sequence": 16,
+      "page": 2,
+      "printed_row": "16",
+      "product_code": "MOCK-PART-008",
+      "description": "Fictional Component 8",
+      "text_lines": [
+        "MOCK-PART-008",
+        "Fictional Component 8"
+      ],
+      "quantity": "224",
+      "unit": "DEMO PCS",
+      "unit_price": "8.016000",
+      "line_total": "1795.584000",
+      "customer_part": "MOCK-CUSTOMER-016",
+      "ics_code": "MOCK-ICS-016",
+      "delivery_date": "2032-02-16"
+    },
+    {
+      "sequence": 17,
+      "page": 2,
+      "printed_row": "17",
+      "product_code": "MOCK-PART-001",
+      "description": "Fictional Component 1",
+      "text_lines": [
+        "MOCK-PART-001",
+        "Fictional Component 1"
+      ],
+      "quantity": "231",
+      "unit": "DEMO PCS",
+      "unit_price": "8.017000",
+      "line_total": "1851.927000",
+      "customer_part": "MOCK-CUSTOMER-017",
+      "ics_code": "MOCK-ICS-017",
+      "delivery_date": "2032-02-17"
+    },
+    {
+      "sequence": 18,
+      "page": 2,
+      "printed_row": "18",
+      "product_code": "MOCK-PART-002",
+      "description": "Fictional Component 2",
+      "text_lines": [
+        "MOCK-PART-002",
+        "Fictional Component 2"
+      ],
+      "quantity": "238",
+      "unit": "DEMO PCS",
+      "unit_price": "8.018000",
+      "line_total": "1908.284000",
+      "customer_part": "MOCK-CUSTOMER-018",
+      "ics_code": "MOCK-ICS-018",
+      "delivery_date": "2032-02-18"
+    },
+    {
+      "sequence": 19,
+      "page": 3,
+      "printed_row": "19",
+      "product_code": "MOCK-PART-003",
+      "description": "Fictional Component 3",
+      "text_lines": [
+        "MOCK-PART-003",
+        "Fictional Component 3"
+      ],
+      "quantity": "245",
+      "unit": "DEMO PCS",
+      "unit_price": "8.019000",
+      "line_total": "1964.655000",
+      "customer_part": "MOCK-CUSTOMER-019",
+      "ics_code": "MOCK-ICS-019",
+      "delivery_date": "2032-02-19"
+    },
+    {
+      "sequence": 20,
+      "page": 3,
+      "printed_row": "20",
+      "product_code": "MOCK-PART-004",
+      "description": "Fictional Component 4",
+      "text_lines": [
+        "MOCK-PART-004",
+        "Fictional Component 4"
+      ],
+      "quantity": "252",
+      "unit": "DEMO PCS",
+      "unit_price": "8.020000",
+      "line_total": "2021.040000",
+      "customer_part": "MOCK-CUSTOMER-020",
+      "ics_code": "MOCK-ICS-020",
+      "delivery_date": "2032-02-20"
+    },
+    {
+      "sequence": 21,
+      "page": 3,
+      "printed_row": "21",
+      "product_code": "MOCK-PART-005",
+      "description": "Fictional Component 5",
+      "text_lines": [
+        "MOCK-PART-005",
+        "Fictional Component 5"
+      ],
+      "quantity": "259",
+      "unit": "DEMO PCS",
+      "unit_price": "8.021000",
+      "line_total": "2077.439000",
+      "customer_part": "MOCK-CUSTOMER-021",
+      "ics_code": "MOCK-ICS-021",
+      "delivery_date": "2032-02-21"
+    },
+    {
+      "sequence": 22,
+      "page": 3,
+      "printed_row": "22",
+      "product_code": "MOCK-PART-006",
+      "description": "Fictional Component 6",
+      "text_lines": [
+        "MOCK-PART-006",
+        "Fictional Component 6"
+      ],
+      "quantity": "266",
+      "unit": "DEMO PCS",
+      "unit_price": "8.022000",
+      "line_total": "2133.852000",
+      "customer_part": "MOCK-CUSTOMER-022",
+      "ics_code": "MOCK-ICS-022",
+      "delivery_date": "2032-02-22"
+    },
+    {
+      "sequence": 23,
+      "page": 3,
+      "printed_row": "23",
+      "product_code": "MOCK-PART-007",
+      "description": "Fictional Component 7",
+      "text_lines": [
+        "MOCK-PART-007",
+        "Fictional Component 7"
+      ],
+      "quantity": "273",
+      "unit": "DEMO PCS",
+      "unit_price": "8.023000",
+      "line_total": "2190.279000",
+      "customer_part": "MOCK-CUSTOMER-023",
+      "ics_code": "MOCK-ICS-023",
+      "delivery_date": "2032-02-23"
+    },
+    {
+      "sequence": 24,
+      "page": 3,
+      "printed_row": "24",
+      "product_code": "MOCK-PART-008",
+      "description": "Fictional Component 8",
+      "text_lines": [
+        "MOCK-PART-008",
+        "Fictional Component 8"
+      ],
+      "quantity": "280",
+      "unit": "DEMO PCS",
+      "unit_price": "8.024000",
+      "line_total": "2246.720000",
+      "customer_part": "MOCK-CUSTOMER-024",
+      "ics_code": "MOCK-ICS-024",
+      "delivery_date": "2032-02-24"
+    },
+    {
+      "sequence": 25,
+      "page": 3,
+      "printed_row": "25",
+      "product_code": "MOCK-PART-001",
+      "description": "Fictional Component 1",
+      "text_lines": [
+        "MOCK-PART-001",
+        "Fictional Component 1"
+      ],
+      "quantity": "287",
+      "unit": "DEMO PCS",
+      "unit_price": "8.025000",
+      "line_total": "2303.175000",
+      "customer_part": "MOCK-CUSTOMER-025",
+      "ics_code": "MOCK-ICS-025",
+      "delivery_date": "2032-02-25"
+    },
+    {
+      "sequence": 26,
+      "page": 3,
+      "printed_row": "26",
+      "product_code": "MOCK-PART-002",
+      "description": "Fictional Component 2",
+      "text_lines": [
+        "MOCK-PART-002",
+        "Fictional Component 2"
+      ],
+      "quantity": "294",
+      "unit": "DEMO PCS",
+      "unit_price": "8.026000",
+      "line_total": "2359.644000",
+      "customer_part": "MOCK-CUSTOMER-026",
+      "ics_code": "MOCK-ICS-026",
+      "delivery_date": "2032-02-26"
+    },
+    {
+      "sequence": 27,
+      "page": 3,
+      "printed_row": "27",
+      "product_code": "MOCK-PART-003",
+      "description": "Fictional Component 3",
+      "text_lines": [
+        "MOCK-PART-003",
+        "Fictional Component 3"
+      ],
+      "quantity": "301",
+      "unit": "DEMO PCS",
+      "unit_price": "8.027000",
+      "line_total": "2416.127000",
+      "customer_part": "MOCK-CUSTOMER-027",
+      "ics_code": "MOCK-ICS-027",
+      "delivery_date": "2032-02-27"
+    },
+    {
+      "sequence": 28,
+      "page": 4,
+      "printed_row": "28",
+      "product_code": "MOCK-PART-004",
+      "description": "Fictional Component 4",
+      "text_lines": [
+        "MOCK-PART-004",
+        "Fictional Component 4"
+      ],
+      "quantity": "308",
+      "unit": "DEMO PCS",
+      "unit_price": "8.028000",
+      "line_total": "2472.624000",
+      "customer_part": "MOCK-CUSTOMER-028",
+      "ics_code": "MOCK-ICS-028",
+      "delivery_date": "2032-02-28"
+    },
+    {
+      "sequence": 29,
+      "page": 4,
+      "printed_row": "29",
+      "product_code": "MOCK-PART-005",
+      "description": "Fictional Component 5",
+      "text_lines": [
+        "MOCK-PART-005",
+        "Fictional Component 5"
+      ],
+      "quantity": "315",
+      "unit": "DEMO PCS",
+      "unit_price": "8.029000",
+      "line_total": "2529.135000",
+      "customer_part": "MOCK-CUSTOMER-029",
+      "ics_code": "MOCK-ICS-029",
+      "delivery_date": "2032-02-01"
+    },
+    {
+      "sequence": 30,
+      "page": 4,
+      "printed_row": "30",
+      "product_code": "MOCK-PART-006",
+      "description": "Fictional Component 6",
+      "text_lines": [
+        "MOCK-PART-006",
+        "Fictional Component 6"
+      ],
+      "quantity": "322",
+      "unit": "DEMO PCS",
+      "unit_price": "8.030000",
+      "line_total": "2585.660000",
+      "customer_part": "MOCK-CUSTOMER-030",
+      "ics_code": "MOCK-ICS-030",
+      "delivery_date": "2032-02-02"
+    },
+    {
+      "sequence": 31,
+      "page": 4,
+      "printed_row": "31",
+      "product_code": "MOCK-PART-007",
+      "description": "Fictional Component 7",
+      "text_lines": [
+        "MOCK-PART-007",
+        "Fictional Component 7"
+      ],
+      "quantity": "329",
+      "unit": "DEMO PCS",
+      "unit_price": "8.031000",
+      "line_total": "2642.199000",
+      "customer_part": "MOCK-CUSTOMER-031",
+      "ics_code": "MOCK-ICS-031",
+      "delivery_date": "2032-02-03"
+    },
+    {
+      "sequence": 32,
+      "page": 4,
+      "printed_row": "32",
+      "product_code": "MOCK-PART-008",
+      "description": "Fictional Component 8",
+      "text_lines": [
+        "MOCK-PART-008",
+        "Fictional Component 8"
+      ],
+      "quantity": "336",
+      "unit": "DEMO PCS",
+      "unit_price": "8.032000",
+      "line_total": "2698.752000",
+      "customer_part": "MOCK-CUSTOMER-032",
+      "ics_code": "MOCK-ICS-032",
+      "delivery_date": "2032-02-04"
+    },
+    {
+      "sequence": 33,
+      "page": 4,
+      "printed_row": "33",
+      "product_code": "MOCK-PART-001",
+      "description": "Fictional Component 1",
+      "text_lines": [
+        "MOCK-PART-001",
+        "Fictional Component 1"
+      ],
+      "quantity": "343",
+      "unit": "DEMO PCS",
+      "unit_price": "8.033000",
+      "line_total": "2755.319000",
+      "customer_part": "MOCK-CUSTOMER-033",
+      "ics_code": "MOCK-ICS-033",
+      "delivery_date": "2032-02-05"
+    },
+    {
+      "sequence": 34,
+      "page": 4,
+      "printed_row": "34",
+      "product_code": "MOCK-PART-002",
+      "description": "Fictional Component 2",
+      "text_lines": [
+        "MOCK-PART-002",
+        "Fictional Component 2"
+      ],
+      "quantity": "350",
+      "unit": "DEMO PCS",
+      "unit_price": "8.034000",
+      "line_total": "2811.900000",
+      "customer_part": "MOCK-CUSTOMER-034",
+      "ics_code": "MOCK-ICS-034",
+      "delivery_date": "2032-02-06"
+    },
+    {
+      "sequence": 35,
+      "page": 4,
+      "printed_row": "35",
+      "product_code": "MOCK-PART-003",
+      "description": "Fictional Component 3",
+      "text_lines": [
+        "MOCK-PART-003",
+        "Fictional Component 3"
+      ],
+      "quantity": "357",
+      "unit": "DEMO PCS",
+      "unit_price": "8.035000",
+      "line_total": "2868.495000",
+      "customer_part": "MOCK-CUSTOMER-035",
+      "ics_code": "MOCK-ICS-035",
+      "delivery_date": "2032-02-07"
+    },
+    {
+      "sequence": 36,
+      "page": 4,
+      "printed_row": "36",
+      "product_code": "MOCK-PART-004",
+      "description": "Fictional Component 4",
+      "text_lines": [
+        "MOCK-PART-004",
+        "Fictional Component 4"
+      ],
+      "quantity": "364",
+      "unit": "DEMO PCS",
+      "unit_price": "8.036000",
+      "line_total": "2925.104000",
+      "customer_part": "MOCK-CUSTOMER-036",
+      "ics_code": "MOCK-ICS-036",
+      "delivery_date": "2032-02-08"
+    },
+    {
+      "sequence": 37,
+      "page": 5,
+      "printed_row": "37",
+      "product_code": "MOCK-PART-005",
+      "description": "Fictional Component 5",
+      "text_lines": [
+        "MOCK-PART-005",
+        "Fictional Component 5"
+      ],
+      "quantity": "371",
+      "unit": "DEMO PCS",
+      "unit_price": "8.037000",
+      "line_total": "2981.727000",
+      "customer_part": "MOCK-CUSTOMER-037",
+      "ics_code": "MOCK-ICS-037",
+      "delivery_date": "2032-02-09"
+    },
+    {
+      "sequence": 38,
+      "page": 5,
+      "printed_row": "38",
+      "product_code": "MOCK-PART-006",
+      "description": "Fictional Component 6",
+      "text_lines": [
+        "MOCK-PART-006",
+        "Fictional Component 6"
+      ],
+      "quantity": "378",
+      "unit": "DEMO PCS",
+      "unit_price": "8.038000",
+      "line_total": "3038.364000",
+      "customer_part": "MOCK-CUSTOMER-038",
+      "ics_code": "MOCK-ICS-038",
+      "delivery_date": "2032-02-10"
+    },
+    {
+      "sequence": 39,
+      "page": 5,
+      "printed_row": "39",
+      "product_code": "MOCK-PART-007",
+      "description": "Fictional Component 7",
+      "text_lines": [
+        "MOCK-PART-007",
+        "Fictional Component 7"
+      ],
+      "quantity": "385",
+      "unit": "DEMO PCS",
+      "unit_price": "8.039000",
+      "line_total": "3095.015000",
+      "customer_part": "MOCK-CUSTOMER-039",
+      "ics_code": "MOCK-ICS-039",
+      "delivery_date": "2032-02-11"
+    },
+    {
+      "sequence": 40,
+      "page": 5,
+      "printed_row": "40",
+      "product_code": "MOCK-PART-008",
+      "description": "Fictional Component 8",
+      "text_lines": [
+        "MOCK-PART-008",
+        "Fictional Component 8"
+      ],
+      "quantity": "392",
+      "unit": "DEMO PCS",
+      "unit_price": "8.040000",
+      "line_total": "3151.680000",
+      "customer_part": "MOCK-CUSTOMER-040",
+      "ics_code": "MOCK-ICS-040",
+      "delivery_date": "2032-02-12"
+    },
+    {
+      "sequence": 41,
+      "page": 5,
+      "printed_row": "41",
+      "product_code": "MOCK-PART-001",
+      "description": "Fictional Component 1",
+      "text_lines": [
+        "MOCK-PART-001",
+        "Fictional Component 1"
+      ],
+      "quantity": "399",
+      "unit": "DEMO PCS",
+      "unit_price": "8.041000",
+      "line_total": "3208.359000",
+      "customer_part": "MOCK-CUSTOMER-041",
+      "ics_code": "MOCK-ICS-041",
+      "delivery_date": "2032-02-13"
+    },
+    {
+      "sequence": 42,
+      "page": 5,
+      "printed_row": "42",
+      "product_code": "MOCK-PART-002",
+      "description": "Fictional Component 2",
+      "text_lines": [
+        "MOCK-PART-002",
+        "Fictional Component 2"
+      ],
+      "quantity": "406",
+      "unit": "DEMO PCS",
+      "unit_price": "8.042000",
+      "line_total": "3265.052000",
+      "customer_part": "MOCK-CUSTOMER-042",
+      "ics_code": "MOCK-ICS-042",
+      "delivery_date": "2032-02-14"
+    },
+    {
+      "sequence": 43,
+      "page": 5,
+      "printed_row": "43",
+      "product_code": "MOCK-PART-003",
+      "description": "Fictional Component 3",
+      "text_lines": [
+        "MOCK-PART-003",
+        "Fictional Component 3"
+      ],
+      "quantity": "413",
+      "unit": "DEMO PCS",
+      "unit_price": "8.043000",
+      "line_total": "3321.759000",
+      "customer_part": "MOCK-CUSTOMER-043",
+      "ics_code": "MOCK-ICS-043",
+      "delivery_date": "2032-02-15"
+    },
+    {
+      "sequence": 44,
+      "page": 5,
+      "printed_row": "44",
+      "product_code": "MOCK-PART-004",
+      "description": "Fictional Component 4",
+      "text_lines": [
+        "MOCK-PART-004",
+        "Fictional Component 4"
+      ],
+      "quantity": "420",
+      "unit": "DEMO PCS",
+      "unit_price": "8.044000",
+      "line_total": "3378.480000",
+      "customer_part": "MOCK-CUSTOMER-044",
+      "ics_code": "MOCK-ICS-044",
+      "delivery_date": "2032-02-16"
+    },
+    {
+      "sequence": 45,
+      "page": 5,
+      "printed_row": "45",
+      "product_code": "MOCK-PART-005",
+      "description": "Fictional Component 5",
+      "text_lines": [
+        "MOCK-PART-005",
+        "Fictional Component 5"
+      ],
+      "quantity": "427",
+      "unit": "DEMO PCS",
+      "unit_price": "8.045000",
+      "line_total": "3435.215000",
+      "customer_part": "MOCK-CUSTOMER-045",
+      "ics_code": "MOCK-ICS-045",
+      "delivery_date": "2032-02-17"
+    },
+    {
+      "sequence": 46,
+      "page": 6,
+      "printed_row": "46",
+      "product_code": "MOCK-PART-006",
+      "description": "Fictional Component 6",
+      "text_lines": [
+        "MOCK-PART-006",
+        "Fictional Component 6"
+      ],
+      "quantity": "434",
+      "unit": "DEMO PCS",
+      "unit_price": "8.046000",
+      "line_total": "3491.964000",
+      "customer_part": "MOCK-CUSTOMER-046",
+      "ics_code": "MOCK-ICS-046",
+      "delivery_date": "2032-02-18"
+    },
+    {
+      "sequence": 47,
+      "page": 6,
+      "printed_row": "47",
+      "product_code": "MOCK-PART-007",
+      "description": "Fictional Component 7",
+      "text_lines": [
+        "MOCK-PART-007",
+        "Fictional Component 7"
+      ],
+      "quantity": "441",
+      "unit": "DEMO PCS",
+      "unit_price": "8.047000",
+      "line_total": "3548.727000",
+      "customer_part": "MOCK-CUSTOMER-047",
+      "ics_code": "MOCK-ICS-047",
+      "delivery_date": "2032-02-19"
+    },
+    {
+      "sequence": 48,
+      "page": 6,
+      "printed_row": "48",
+      "product_code": "MOCK-PART-008",
+      "description": "Fictional Component 8",
+      "text_lines": [
+        "MOCK-PART-008",
+        "Fictional Component 8"
+      ],
+      "quantity": "448",
+      "unit": "DEMO PCS",
+      "unit_price": "8.048000",
+      "line_total": "3605.504000",
+      "customer_part": "MOCK-CUSTOMER-048",
+      "ics_code": "MOCK-ICS-048",
+      "delivery_date": "2032-02-20"
+    },
+    {
+      "sequence": 49,
+      "page": 6,
+      "printed_row": "49",
+      "product_code": "MOCK-PART-001",
+      "description": "Fictional Component 1",
+      "text_lines": [
+        "MOCK-PART-001",
+        "Fictional Component 1"
+      ],
+      "quantity": "455",
+      "unit": "DEMO PCS",
+      "unit_price": "8.049000",
+      "line_total": "3662.295000",
+      "customer_part": "MOCK-CUSTOMER-049",
+      "ics_code": "MOCK-ICS-049",
+      "delivery_date": "2032-02-21"
+    },
+    {
+      "sequence": 50,
+      "page": 6,
+      "printed_row": "50",
+      "product_code": "MOCK-PART-002",
+      "description": "Fictional Component 2",
+      "text_lines": [
+        "MOCK-PART-002",
+        "Fictional Component 2"
+      ],
+      "quantity": "462",
+      "unit": "DEMO PCS",
+      "unit_price": "8.050000",
+      "line_total": "3719.100000",
+      "customer_part": "MOCK-CUSTOMER-050",
+      "ics_code": "MOCK-ICS-050",
+      "delivery_date": "2032-02-22"
+    },
+    {
+      "sequence": 51,
+      "page": 6,
+      "printed_row": "51",
+      "product_code": "MOCK-PART-003",
+      "description": "Fictional Component 3",
+      "text_lines": [
+        "MOCK-PART-003",
+        "Fictional Component 3"
+      ],
+      "quantity": "469",
+      "unit": "DEMO PCS",
+      "unit_price": "8.051000",
+      "line_total": "3775.919000",
+      "customer_part": "MOCK-CUSTOMER-051",
+      "ics_code": "MOCK-ICS-051",
+      "delivery_date": "2032-02-23"
+    },
+    {
+      "sequence": 52,
+      "page": 6,
+      "printed_row": "52",
+      "product_code": "MOCK-PART-004",
+      "description": "Fictional Component 4",
+      "text_lines": [
+        "MOCK-PART-004",
+        "Fictional Component 4"
+      ],
+      "quantity": "476",
+      "unit": "DEMO PCS",
+      "unit_price": "8.052000",
+      "line_total": "3832.752000",
+      "customer_part": "MOCK-CUSTOMER-052",
+      "ics_code": "MOCK-ICS-052",
+      "delivery_date": "2032-02-24"
+    },
+    {
+      "sequence": 53,
+      "page": 6,
+      "printed_row": "53",
+      "product_code": "MOCK-PART-005",
+      "description": "Fictional Component 5",
+      "text_lines": [
+        "MOCK-PART-005",
+        "Fictional Component 5"
+      ],
+      "quantity": "483",
+      "unit": "DEMO PCS",
+      "unit_price": "8.053000",
+      "line_total": "3889.599000",
+      "customer_part": "MOCK-CUSTOMER-053",
+      "ics_code": "MOCK-ICS-053",
+      "delivery_date": "2032-02-25"
+    },
+    {
+      "sequence": 54,
+      "page": 6,
+      "printed_row": "54",
+      "product_code": "MOCK-PART-006",
+      "description": "Fictional Component 6",
+      "text_lines": [
+        "MOCK-PART-006",
+        "Fictional Component 6"
+      ],
+      "quantity": "490",
+      "unit": "DEMO PCS",
+      "unit_price": "8.054000",
+      "line_total": "3946.460000",
+      "customer_part": "MOCK-CUSTOMER-054",
+      "ics_code": "MOCK-ICS-054",
+      "delivery_date": "2032-02-26"
+    },
+    {
+      "sequence": 55,
+      "page": 7,
+      "printed_row": "55",
+      "product_code": "MOCK-PART-007",
+      "description": "Fictional Component 7",
+      "text_lines": [
+        "MOCK-PART-007",
+        "Fictional Component 7"
+      ],
+      "quantity": "497",
+      "unit": "DEMO PCS",
+      "unit_price": "8.055000",
+      "line_total": "4003.335000",
+      "customer_part": "MOCK-CUSTOMER-055",
+      "ics_code": "MOCK-ICS-055",
+      "delivery_date": "2032-02-27"
+    },
+    {
+      "sequence": 56,
+      "page": 7,
+      "printed_row": "56",
+      "product_code": "MOCK-PART-008",
+      "description": "Fictional Component 8",
+      "text_lines": [
+        "MOCK-PART-008",
+        "Fictional Component 8"
+      ],
+      "quantity": "504",
+      "unit": "DEMO PCS",
+      "unit_price": "8.056000",
+      "line_total": "4060.224000",
+      "customer_part": "MOCK-CUSTOMER-056",
+      "ics_code": "MOCK-ICS-056",
+      "delivery_date": "2032-02-28"
+    },
+    {
+      "sequence": 57,
+      "page": 7,
+      "printed_row": "57",
+      "product_code": "MOCK-PART-001",
+      "description": "Fictional Component 1",
+      "text_lines": [
+        "MOCK-PART-001",
+        "Fictional Component 1"
+      ],
+      "quantity": "511",
+      "unit": "DEMO PCS",
+      "unit_price": "8.057000",
+      "line_total": "4117.127000",
+      "customer_part": "MOCK-CUSTOMER-057",
+      "ics_code": "MOCK-ICS-057",
+      "delivery_date": "2032-02-01"
+    },
+    {
+      "sequence": 58,
+      "page": 7,
+      "printed_row": "58",
+      "product_code": "MOCK-PART-002",
+      "description": "Fictional Component 2",
+      "text_lines": [
+        "MOCK-PART-002",
+        "Fictional Component 2"
+      ],
+      "quantity": "518",
+      "unit": "DEMO PCS",
+      "unit_price": "8.058000",
+      "line_total": "4174.044000",
+      "customer_part": "MOCK-CUSTOMER-058",
+      "ics_code": "MOCK-ICS-058",
+      "delivery_date": "2032-02-02"
+    },
+    {
+      "sequence": 59,
+      "page": 7,
+      "printed_row": "59",
+      "product_code": "MOCK-PART-003",
+      "description": "Fictional Component 3",
+      "text_lines": [
+        "MOCK-PART-003",
+        "Fictional Component 3"
+      ],
+      "quantity": "525",
+      "unit": "DEMO PCS",
+      "unit_price": "8.059000",
+      "line_total": "4230.975000",
+      "customer_part": "MOCK-CUSTOMER-059",
+      "ics_code": "MOCK-ICS-059",
+      "delivery_date": "2032-02-03"
+    },
+    {
+      "sequence": 60,
+      "page": 7,
+      "printed_row": "60",
+      "product_code": "MOCK-PART-004",
+      "description": "Fictional Component 4",
+      "text_lines": [
+        "MOCK-PART-004",
+        "Fictional Component 4"
+      ],
+      "quantity": "532",
+      "unit": "DEMO PCS",
+      "unit_price": "8.060000",
+      "line_total": "4287.920000",
+      "customer_part": "MOCK-CUSTOMER-060",
+      "ics_code": "MOCK-ICS-060",
+      "delivery_date": "2032-02-04"
+    },
+    {
+      "sequence": 61,
+      "page": 7,
+      "printed_row": "61",
+      "product_code": "MOCK-PART-005",
+      "description": "Fictional Component 5",
+      "text_lines": [
+        "MOCK-PART-005",
+        "Fictional Component 5"
+      ],
+      "quantity": "539",
+      "unit": "DEMO PCS",
+      "unit_price": "8.061000",
+      "line_total": "4344.879000",
+      "customer_part": "MOCK-CUSTOMER-061",
+      "ics_code": "MOCK-ICS-061",
+      "delivery_date": "2032-02-05"
+    },
+    {
+      "sequence": 62,
+      "page": 7,
+      "printed_row": "62",
+      "product_code": "MOCK-PART-006",
+      "description": "Fictional Component 6",
+      "text_lines": [
+        "MOCK-PART-006",
+        "Fictional Component 6"
+      ],
+      "quantity": "546",
+      "unit": "DEMO PCS",
+      "unit_price": "8.062000",
+      "line_total": "4401.852000",
+      "customer_part": "MOCK-CUSTOMER-062",
+      "ics_code": "MOCK-ICS-062",
+      "delivery_date": "2032-02-06"
+    },
+    {
+      "sequence": 63,
+      "page": 7,
+      "printed_row": "63",
+      "product_code": "MOCK-PART-007",
+      "description": "Fictional Component 7",
+      "text_lines": [
+        "MOCK-PART-007",
+        "Fictional Component 7"
+      ],
+      "quantity": "553",
+      "unit": "DEMO PCS",
+      "unit_price": "8.063000",
+      "line_total": "4458.839000",
+      "customer_part": "MOCK-CUSTOMER-063",
+      "ics_code": "MOCK-ICS-063",
+      "delivery_date": "2032-02-07"
+    },
+    {
+      "sequence": 64,
+      "page": 8,
+      "printed_row": "64",
+      "product_code": "MOCK-PART-008",
+      "description": "Fictional Component 8",
+      "text_lines": [
+        "MOCK-PART-008",
+        "Fictional Component 8"
+      ],
+      "quantity": "560",
+      "unit": "DEMO PCS",
+      "unit_price": "8.064000",
+      "line_total": "4515.840000",
+      "customer_part": "MOCK-CUSTOMER-064",
+      "ics_code": "MOCK-ICS-064",
+      "delivery_date": "2032-02-08"
+    },
+    {
+      "sequence": 65,
+      "page": 8,
+      "printed_row": "65",
+      "product_code": "MOCK-PART-001",
+      "description": "Fictional Component 1",
+      "text_lines": [
+        "MOCK-PART-001",
+        "Fictional Component 1"
+      ],
+      "quantity": "567",
+      "unit": "DEMO PCS",
+      "unit_price": "8.065000",
+      "line_total": "4572.855000",
+      "customer_part": "MOCK-CUSTOMER-065",
+      "ics_code": "MOCK-ICS-065",
+      "delivery_date": "2032-02-09"
+    },
+    {
+      "sequence": 66,
+      "page": 8,
+      "printed_row": "66",
+      "product_code": "MOCK-PART-002",
+      "description": "Fictional Component 2",
+      "text_lines": [
+        "MOCK-PART-002",
+        "Fictional Component 2"
+      ],
+      "quantity": "574",
+      "unit": "DEMO PCS",
+      "unit_price": "8.066000",
+      "line_total": "4629.884000",
+      "customer_part": "MOCK-CUSTOMER-066",
+      "ics_code": "MOCK-ICS-066",
+      "delivery_date": "2032-02-10"
+    },
+    {
+      "sequence": 67,
+      "page": 8,
+      "printed_row": "67",
+      "product_code": "MOCK-PART-003",
+      "description": "Fictional Component 3",
+      "text_lines": [
+        "MOCK-PART-003",
+        "Fictional Component 3"
+      ],
+      "quantity": "581",
+      "unit": "DEMO PCS",
+      "unit_price": "8.067000",
+      "line_total": "4686.927000",
+      "customer_part": "MOCK-CUSTOMER-067",
+      "ics_code": "MOCK-ICS-067",
+      "delivery_date": "2032-02-11"
+    },
+    {
+      "sequence": 68,
+      "page": 8,
+      "printed_row": "68",
+      "product_code": "MOCK-PART-004",
+      "description": "Fictional Component 4",
+      "text_lines": [
+        "MOCK-PART-004",
+        "Fictional Component 4"
+      ],
+      "quantity": "588",
+      "unit": "DEMO PCS",
+      "unit_price": "8.068000",
+      "line_total": "4743.984000",
+      "customer_part": "MOCK-CUSTOMER-068",
+      "ics_code": "MOCK-ICS-068",
+      "delivery_date": "2032-02-12"
+    },
+    {
+      "sequence": 69,
+      "page": 8,
+      "printed_row": "69",
+      "product_code": "MOCK-PART-005",
+      "description": "Fictional Component 5",
+      "text_lines": [
+        "MOCK-PART-005",
+        "Fictional Component 5"
+      ],
+      "quantity": "595",
+      "unit": "DEMO PCS",
+      "unit_price": "8.069000",
+      "line_total": "4801.055000",
+      "customer_part": "MOCK-CUSTOMER-069",
+      "ics_code": "MOCK-ICS-069",
+      "delivery_date": "2032-02-13"
+    },
+    {
+      "sequence": 70,
+      "page": 8,
+      "printed_row": "70",
+      "product_code": "MOCK-PART-006",
+      "description": "Fictional Component 6",
+      "text_lines": [
+        "MOCK-PART-006",
+        "Fictional Component 6"
+      ],
+      "quantity": "602",
+      "unit": "DEMO PCS",
+      "unit_price": "8.070000",
+      "line_total": "4858.140000",
+      "customer_part": "MOCK-CUSTOMER-070",
+      "ics_code": "MOCK-ICS-070",
+      "delivery_date": "2032-02-14"
+    },
+    {
+      "sequence": 71,
+      "page": 8,
+      "printed_row": "71",
+      "product_code": "MOCK-PART-007",
+      "description": "Fictional Component 7",
+      "text_lines": [
+        "MOCK-PART-007",
+        "Fictional Component 7"
+      ],
+      "quantity": "609",
+      "unit": "DEMO PCS",
+      "unit_price": "8.071000",
+      "line_total": "4915.239000",
+      "customer_part": "MOCK-CUSTOMER-071",
+      "ics_code": "MOCK-ICS-071",
+      "delivery_date": "2032-02-15"
+    },
+    {
+      "sequence": 72,
+      "page": 8,
+      "printed_row": "72",
+      "product_code": "MOCK-PART-008",
+      "description": "Fictional Component 8",
+      "text_lines": [
+        "MOCK-PART-008",
+        "Fictional Component 8"
+      ],
+      "quantity": "616",
+      "unit": "DEMO PCS",
+      "unit_price": "8.072000",
+      "line_total": "4972.352000",
+      "customer_part": "MOCK-CUSTOMER-072",
+      "ics_code": "MOCK-ICS-072",
+      "delivery_date": "2032-02-16"
+    }
+  ]
+}

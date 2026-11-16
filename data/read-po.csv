@@ -1,0 +1,13 @@
+﻿"sequence","page","printed_row","product_code","description","quantity","unit","unit_price","line_total","customer_part","ics_code","delivery_date","document_number","document_date","currency","buyer","supplier","payment_terms","shipping_terms","remarks","printed_text","all_page_text"
+"1","1","1","MOCK-PART-001","Fictional Component 1","120","DEMO PCS","9.001000","1080.120000","MOCK-CUSTOMER-001","MOCK-ICS-001","2032-02-01","MOCK-PO-002","2032-01-02","THB","Fictional Buyer 2","Fictional Supplier 2","MOCK net 21 days","MOCK delivery arrangement","All identities, goods, dates and amounts are fictional. Not an OCR result.","MOCK-PART-001
+Fictional Component 1","PAGE 1
+MOCK / FICTIONAL - NOT AN OCR RESULT
+MOCK-PO-002 | Page 1/1
+Buyer: Fictional Buyer 2 | Supplier: Fictional Supplier 2
+Address: 2 Imaginary Avenue, Sample City
+Contact: demo2@example.invalid
+Date: 2032-01-02 | THB | MOCK net 21 days
+Row | Product | Qty | Unit price | Total | Delivery
+1 | MOCK-PART-001 | 120 | 9.001000 | 1080.120000 | 2032-02-01
+MOCK-PART-001 · Fictional Component 1 | MOCK-CUSTOMER-001 | MOCK-ICS-001
+All goods, prices, parties and references are fictional."

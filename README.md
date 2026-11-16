@@ -1,19 +1,9 @@
-# ใบงาน
+# ใบงาน MOCK / FICTIONAL
 
-ติดตามเอกสารและดูชื่อสินค้าจากผลอ่านจริง
+All identities, products, prices, dates, texts, PDFs, and diagnostic records are fictional. No OCR is executed. This is not a recovered source dataset.
 
-แกลเลอรีรูปสินค้าเลื่อนซ้าย–ขวาได้ ใช้ปุ่ม จุดเลือกช่วง หรือปัดบนมือถือ กดรูปเพื่อเปิดคำอ่านและต้นทาง ภาพ 6 รายการอ้างอิงรุ่นหลัก และอีก 2 รายการติดป้ายภาพใกล้เคียง รายละเอียดอยู่ใน [ที่มาภาพ](assets/products/SOURCES.md)
+3 mock documents, 11 mock pages, 75 mock rows. JSON/CSV use the same synthetic values as the UI. Original public demo and private recovered data remain separate. The user explicitly approved publishing this fictional mock to the existing GitHub Pages site.
 
-**เปิด:** https://akcd1998.github.io/bai-ngan-inbound-demo/
+Run `node test-data.cjs` for deterministic data/render-function tests. Browser interaction/visual testing remains unverified in this environment.
 
-- ข้อมูลสินค้ามาจากคำอ่าน Tesseract PSM 6 / ข้อความ PDF ที่เก็บไว้จากเอกสารทดสอบ 3 ชุด รวม 11 หน้า ไม่มี LLM อ่านภาพหรือเรียก OCR ใหม่ในรอบนี้
-- รายการนี้เป็นตัวนำข้อมูลมาแสดงจากหัวตารางและพิกัด ไม่ใช่ผล parser เดิม และไม่เปลี่ยนคะแนนหรือจำนวนแถวของผลทดลองเดิม
-- กดสินค้าเพื่อเปิดผลเอกสารในการ์ดเดียว เรียงหน้าและแถวตาม PDF พร้อมส่งออก JSON/CSV; ยังเป็นร่างรอตรวจ
-- คำอ่านดิบ เครื่องมือ และพิกัดอยู่แท็บ “วิเคราะห์” พร้อม Diagnostic JSON แยกจากข้อมูลลูกค้า นี่เป็นการแยกมุมมอง ยังไม่มีระบบสิทธิ์บัญชีผู้ใช้
-- เว็บสาธารณะแสดงเฉพาะชื่อ/รหัสสินค้า ไม่มี PDF ต้นฉบับ ข้อมูลติดต่อ จำนวนสั่งซื้อ หรือราคาเอกสารจริง
-- งานที่กรอกและไฟล์แนบเก็บเฉพาะเบราว์เซอร์แต่ละคน ไม่เชื่อมฐานข้อมูลร่วมกันหรือ ERP
-- เปลี่ยนช่องเก็บข้อมูลเป็น v2 เพื่อเปิดผลจริง โดยเก็บข้อมูลสาธิตเดิมในช่องเก็บเดิมไว้
-
-เปิด `index.html` ได้เลย ไม่ต้องติดตั้งแพ็กเกจ
-
-แนวทางหน้าลูกค้าและ diagnostic สำหรับพัฒนาต่อ: [Document output](docs/DOCUMENT_OUTPUT.md)
+Supplier settings are concept-only: fictional email and format preview in DOM memory. No Gmail/Apps Script/backend connection, persistence, automation or external writes.

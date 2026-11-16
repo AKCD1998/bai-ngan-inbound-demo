@@ -1,0 +1,45 @@
+{
+  "scope": "MOCK FICTIONAL ONLY, not recovered source data",
+  "files": [
+    {
+      "path": "data/mock-data.json",
+      "sha256": "0ff1469755c6d2db0191e738cd5650adbd8495b04c69ab32df663f90b613febe"
+    },
+    {
+      "path": "data/read-bt.csv",
+      "sha256": "b58fd5a5b2af6c1fcb046e51df1486016dbba860fe16cc2b8015c656e20ca0b8"
+    },
+    {
+      "path": "data/read-bt.json",
+      "sha256": "ca43d76e8f19e5af8cf4b75c397a7da9615feee26a98dd8e55b75cce7753e262"
+    },
+    {
+      "path": "data/read-po.csv",
+      "sha256": "3931f50db706d654adb50b1b892da2852a1a6c18b4dfbd7bd196a2c94981cd73"
+    },
+    {
+      "path": "data/read-po.json",
+      "sha256": "ee1b25f0a40210e84de17476803eba203e31a8a8e9b3d36c439b2e542880c086"
+    },
+    {
+      "path": "data/read-po8.csv",
+      "sha256": "e2ea99673e5323a43e38981c76bd69cce72414da2fcb6c2cc9fdb28713151eca"
+    },
+    {
+      "path": "data/read-po8.json",
+      "sha256": "399c86a474991b61a5a3da1e6ca9aa99d057c6f78301f0ecd8b5e3b2233b9530"
+    },
+    {
+      "path": "data/sources/source-1.pdf",
+      "sha256": "9043669a07dc48f4e1d2c6aee32df3352e17072aa0f479d9660582b69658a26e"
+    },
+    {
+      "path": "data/sources/source-2.pdf",
+      "sha256": "2aa6826ac98309c82a6315ddba3aa304563ec6d7bc5635fab3d6851445ce4abe"
+    },
+    {
+      "path": "data/sources/source-3.pdf",
+      "sha256": "61da545bcdca740f14f95699a68143704d206e4e8517393737532e224550c39d"
+    }
+  ]
+}
